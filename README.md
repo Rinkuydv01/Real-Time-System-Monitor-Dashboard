@@ -27,20 +27,24 @@ Tracks CPU, memory, disk, network, and process-level metrics, with console alert
 ---
 
 ## Folder Structure
+
+```bash
 real-time-system-monitor-dashboard/
-│
 ├── backend/
-│ ├── init.py
-│ ├── database.py
-│ ├── monitor.py
-│ ├── alert_manager.py
-│ └── server.py
-│
+│   ├── __init__.py
+│   ├── database.py
+│   ├── monitor.py
+│   └── alert_manager.py
 ├── dashboard/
-│ └── app.py
-│
-├── data/ # SQLite DB auto-created
+│   └── app.py
+├── data/
+│   └── (SQLite DB auto-created here)
+├── server.py
 └── README.md
+```
+
+
+
 
 ---
 
